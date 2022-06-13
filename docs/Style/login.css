@@ -1,0 +1,111 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/*Navbar Login*/
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 6px 12px #0016;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: #7C7B7B;
+    margin: 0 35px;
+    font-size: 55px;
+}
+
+.navbar-frase p {
+    margin: 0;
+    font-size: 55px;
+    color: #035397;
+    font-weight: 800;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Body Login*/
+.account-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.account{
+    horiz-align: center;
+}
+
+.account input {
+    background: #6363A355;
+    border-radius: 5px;
+    border: 1px solid #1C427B;
+    outline: none;
+    width: 70%;
+    height: 60px;
+    margin: 20px;
+    text-align: center;
+    color: #035397;
+}
+
+.account input::placeholder {
+    text-align: center;
+    color: #6363A3;
+}
+
+.botones {
+    justify-content: center;
+    border-top: 1px solid #035397;
+    border-bottom: 1px solid #035397;
+    margin: 20px;
+    width: 70%;
+}
+
+.botones button {
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    margin: 15px 0;
+}
+
+.botones button a {
+    color: #035397;
+    cursor: pointer;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    background: #1C427B;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-around;
+    font-size: 12px;
+    padding: 5px;
+    align-items: center;
+    margin-top:auto;
+}
+.footer-part-about {
+    width: 300px;
+}
+.footer-part {
+    text-align: left;
+    width: 30px;
+    margin: 0 40px;
+}
+.footer-part div a {
+    color: #fff;
+    text-decoration: none;
+}
+.trickfit {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+}

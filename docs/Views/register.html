@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Style/register.css">
+    <link rel="stylesheet" href="../Style/normalize.css">
+    <link rel="icon" href="../Images/logo-white.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df3f122307.js" crossorigin="anonymous"></script>
+    <title>Register</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <header class="navbar">
+        <a href="account.html">
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </a>
+        <div class="navbar-frase">
+            <p>Crea habitos saludables a tu ritmo</p>
+        </div>
+    </header>
+
+    <!--form-->
+    <section>
+        <form class="register-container">
+            <div>
+                <div class="finput">
+                    <label for="fmail">Correo</label>
+                    <input type="email" id="fmail" name="correo" placeholder="Correo">
+                </div>
+
+                <div class="finput">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="nombre" placeholder="Nombre">
+                </div>
+
+                <div class="finput">
+                    <label for="fgender">Género</label>
+                    <select id="fgender" name="gender">
+                        <option value="F">Femenino</option>
+                        <option value="M">Masculino</option>
+                        <option value="P">Personalizado</option>
+                    </select>
+                </div>
+
+                <div class="finput">
+                    <label for="fdate">Nacimiento</label>
+                    <input type="date" id="fdate" name="nacimiento" placeholder="dd/mm/yyyy">
+                </div>
+
+                <div class="finput">
+                    <label for="country">Pais</label>
+                    <select id="country" name="country">
+                        <option value="Peru">Peru</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                    </select>
+                </div>
+
+                <div class="finput">
+                    <label for="fheight">Estatura</label>
+                    <input type="number" id="fheight" name="height" placeholder="Estatura (m)" min="1" max="2.5">
+                </div>
+
+                <div class="finput">
+                    <label for="fweight">Peso</label>
+                    <input type="number" id="fweight" name="weight" placeholder="Peso (Kg)" min="30" max="200">
+                </div>
+            </div>
+
+            <div class="iandbtn">
+                <img src="../Images/logo-trans.png" alt="logo">
+                <input type="submit" value="Listo">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
