@@ -1,0 +1,133 @@
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*NAVBAR-ADVANCED*/
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 6px 12px #0016;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: #7C7B7B;
+    margin: 0 35px;
+    font-size: 55px;
+}
+
+.navbar-frase p {
+    margin: 0;
+    font-size: 55px;
+    color: #035397;
+    font-weight: 800;
+}
+
+.space_header2{
+    width: 480px;
+}
+
+.text_inicio {
+    place-content: end;
+    color: #035397;
+    font-size: 18px;
+}
+
+.flex-row{
+    align-items: center;
+    max-width: 1313px;
+    padding: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.text_avanzado {
+    color: #035397;
+    font-size: 43px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: right;
+    width: 400px;
+    margin: 25px 0px;
+}
+
+.input_search {
+    width: 800px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #437ED3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    color: #437ED3;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    margin: 26px 0px;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+}
+
+.visualizer_vid {
+    height: 196px;
+    width: 324px;
+    object-fit: cover;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+
+.gratuito_nunito {
+    align-self: flex-start;
+    width: 88px;
+    min-height: 26px;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.title-content-video{
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btt_ingresar{
+    margin-top: 20px;
+    width: 315px;
+    background-color: #FFFFFF;
+    border: 1px solid #437ED3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 11.2px 0;
+    font-size: 18px;
+    color: #437ED3;
+}
+
+.container-services {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.content-items-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.item-service {
+    margin: 1.5%;
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #035397;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-shrink: 1
+}
+
