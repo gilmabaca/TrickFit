@@ -1,0 +1,60 @@
+/*NAVBAR*/
+* {
+    font-family: 'Nunito', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+.navbar {
+    display: flex;
+    height: 100px;
+    box-shadow: 0 6px 12px #0016;
+    z-index: 10
+}
+.navbar-logo {
+    display: flex;
+    width: 60%;
+
+}
+.navbar-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+
+}
+.navbar-options a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    background: #1C427B;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-around;
+    padding: 30px;
+}
+.footer-part-about {
+    width: 300px;
+}
+.footer-part {
+    text-align: left;
+    width: 30px;
+    margin: 0 40px;
+}
+.footer-part div a {
+    color: #fff;
+    text-decoration: none;
+}
+.trickfit {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 80px;
+}
+
