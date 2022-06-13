@@ -1,0 +1,255 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+.contenido {
+    position: absolute;
+    width: 442px;
+    height: 85px;
+    left: 84px;
+    top: 282px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    text-align: center;
+
+    color: #1C58AE;
+
+}
+
+.title-content{
+    font-family: 'Nunito';
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+    color: #FD9A00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 6px 12px #0016;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: #7C7B7B;
+    margin: 0 35px;
+    font-size: 55px;
+}
+
+.navbar-frase p {
+    margin: 0;
+    font-size: 55px;
+    color: #035397;
+    font-weight: 800;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.flex-row-Contenido {
+    align-items: center;
+    max-width: 23px;
+    padding: 5px;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 500px;
+    justify-content: left;
+}
+
+.tittleContenido {
+    margin-top: 7px;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+    color: rgba(3, 83, 151, 0.57);
+}
+
+.pblica-tu-negocio-con-nosotros{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4px;
+    color: #FD9A00;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.overlap-Contenido {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #1b417b;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px #0016;
+    display: flex;
+    flex-direction: column;
+    min-height: 611px;
+    padding: 23px 0;
+    width: 450px;
+    margin-left: 1px;
+    margin-top: 50px;
+}
+
+.overlap-grupo8 {
+    height: 414px;
+    margin: 37px 0 0 15px;
+    position: relative;
+    width: 349px;
+}
+
+.consultaPersonalizada {
+    color: #313234;
+    font-size: 17px;
+    font-weight: 400;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 349px;
+}
+
+.text_planNutricional {
+    color: #035397;
+    font-size: 43px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: right;
+    width: 500px;
+    margin: 25px;
+}
+
+/*Register*/
+
+.planNutricional-container {
+    align-items: flex-start;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.finput {
+    border: 2px solid #035397;
+    padding: 10px;
+    min-width: 500px ;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.finput label {
+    color: #035397;
+    margin: 5px 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.finput input, select {
+    outline: none;
+    height: 30px;
+    margin: 5px;
+    color: #000;
+    border-style: none;
+    width: 150px;
+}
+
+.finput select {
+    outline: none;
+    height: 30px;
+    margin: 5px;
+    color: #000;
+    width: 150px;
+    border: none;
+}
+
+.iandbtn{
+    display: flex;
+    padding: 15px;
+}
+
+.iandbtn  input {
+    align-items: center;
+    width: 125px;
+    background: #ffffff;
+    border-style: none;
+    color: #035397;
+    font-size: 20px;
+    cursor: pointer;
+    border-top: 1px solid #035397;
+    border-bottom: 1px solid #035397;
+}
+
+.Container_precio_tiempo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.precio {
+    border: 1px solid #035397;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100px;
+}
+
+.tiempo {
+    width: 125px;
+    background: #ffffff;
+    border-style: none;
+    color: #035397;
+    margin: 15px;
+    cursor: pointer;
+    border-top: 1px solid #035397;
+    border-bottom: 1px solid #035397;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    background: #1C427B;
+    flex-direction: row;
+    color: #fff;
+    justify-content: space-around;
+    font-size: 12px;
+    padding: 5px;
+    align-items: center;
+    margin-top:auto;
+}
+.footer-part-about {
+    width: 300px;
+}
+.footer-part {
+    text-align: left;
+    width: 30px;
+    margin: 0 40px;
+}
+.footer-part div a {
+    color: #fff;
+    text-decoration: none;
+}
+.trickfit {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }
