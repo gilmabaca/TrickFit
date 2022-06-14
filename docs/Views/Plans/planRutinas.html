@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../Style/Plans/planRutinas.css">
+    <link rel="stylesheet" href="../../Style/normalize.css">
+    <link rel="icon" href="../../Images/logo-white.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df3f122307.js" crossorigin="anonymous"></script>
+    <title>Plan Rutinas</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <header class="navbar">
+        <a href="../../index.html">
+            <i class="fa-solid fa-arrow-left-long"></i>
+        </a>
+        <div class="navbar-frase">
+            <p>Crea habitos saludables a tu ritmo</p>
+        </div>
+    </header>
+
+    <!--TITULO-->
+    <div class="flex-row">
+        <div class="content-items-services">
+            <div class="text_planNutricional">Plan Rutinas</div>
+        </div>
+    </div>
+
+    <!--Contenido-->
+    <section class="Container">
+        <div class="flex-row-Contenido">
+            <div class="overlap-Contenido">
+                <h1 class="tittleContenido">Contenido</h1>
+                <div class="overlap-grupo8">
+                    <div class="consultaPersonalizada">
+                        <ul>
+                            <li>Consulta personalizada con un entrenador</li><br />
+                            <li>Creacion de rutinas con objetivos según el tiempo establecido</li><br />
+                            <li>Adecua tu tiempo y espacio para poder incluir actividad física en tu horario</li><br />
+                            <li>Puedes usar tu cuenta en distintos dispositivos</li><br />
+                            <li>Configura el tiempo que quieres este tipo de suscripcion. Contamos con el plan de 1 mes, 3 meses y 6 meses</li><br />
+                            <li>Podras participar en el sorteo semanal para promocionar tu negocio en nuestra aplicación
+                                ¡Todo depende de tus avances! ¡Exitos!</li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="pblica-tu-negocio-con-nosotros">¡Pública tu negocio con nosotros!</div>
+            </div>
+        </div>
+
+    <!--form-->
+        
+        <form class="planNutricional-container">
+            <div>
+                <div class="finput">
+                    <label for="fUsuario">Usuario</label>
+                    <input type="text" id="fUsuario" name="Usuario" placeholder="Nombre de usuario">
+                </div>
+
+                <div class="finput">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="nombre" placeholder="Escribe tu nombre">
+                </div>
+
+                <div class="finput">
+                    <label for="fmail">Correo</label>
+                    <input type="email" id="fmail" name="correo" placeholder="Ingrese correo">
+                </div>
+
+                <div class="finput">
+                    <label for="fIDCard">DNI</label>
+                    <input type="number" id="fIDCard" name="DNI" placeholder="Ingrese DNI" min="10000000" max="99999999">
+                </div>
+                
+                <div class="finput">
+                    <label for="fCard">Tarjeta</label>
+                    <input type="number" id="fCard" name="Tarjeta" placeholder="Añadir tarjeta">
+                </div>
+
+                <section class="Container">
+                    <div>
+                        <section class="Container_precio_tiempo">
+                            <div>
+                                <select class="tiempo" id="Tiempo" name="Tiempo">
+                                    <option label="Tiempo">Tiempo:</option>
+                                    <option value="1 Mes">1 Mes</option>
+                                    <option value="3 Mes">3 Meses</option>
+                                    <option value="6 Mes">6 Meses</option>
+                                </select>
+                            </div>
+                            <div>
+                                <input class="precio" type="number" placeholder="  Precio">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="iandbtn">
+                        <input type="submit" value="Pagar">
+                    </div>
+                </section>
+
+            </div>
+            
+        </form>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-part-about">
+            <h3 class="footer-title-about">Sobre Nosotros</h3>
+            <p>
+                Somos un grupo de jóvenes emprendedores que tiene como misión  llevar conciencia a las personas,
+                respecto a la importancia  y beneficios de mejorar su calidad de vida, a través del ejercicio y
+                la buena alimentación.
+            </p>
+        </div>
+        <div class="footer-part">
+            <h3 class="footer-title">Listas</h3>
+            <div>
+                <a href="../../index.html">Inicio</a>
+                <a href="../../index.html">Nosotros</a>
+                <a href="../../index.html">Rutinas</a>
+                <a href="../../index.html">Recetas</a>
+                <a href="../../index.html">Planes</a>
+            </div>
+        </div>
+        <div class="footer-part">
+            <h3 class="footer-title">Redes Sociales</h3>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+        <span class="trickfit">TrickFit</span>
+    </footer>
+
+</body>
+</html>
