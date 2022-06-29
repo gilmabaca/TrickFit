@@ -109,3 +109,45 @@ body {
     font-weight: bold;
     font-size: 60px;
 }
+
+
+/*Iphone12Pro*/
+@media (max-width: 500px){
+
+    .account-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .account-container img{
+        display: grid;
+        width: 300px;
+        height: 300px;
+        place-items: center;
+        column-gap: 2;
+        row-gap: auto;
+        margin-left: 5px;
+      }
+
+    .account{
+    
+        margin-left: 60px;
+
+
+    }
+    .navbar a{
+        margin-left: 20px;
+        margin-right: 0px;
+        display:grid;
+    }
+    .navbar-frase p{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .footer{
+        display: none;
+    }
+    .navbar a {
+       font-size: 30px;
+    }
+    }

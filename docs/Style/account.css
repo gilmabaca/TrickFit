@@ -12,13 +12,13 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    box-shadow: 0 6px 12px #0016;
+    box-shadow: 0 15px 12px #0016;
     padding: 15px 0;
 }
 
 .navbar a {
     color: #7C7B7B;
-    margin: 0 35px;
+    margin: 0 80px;
     font-size: 55px;
 }
 
@@ -79,6 +79,8 @@ body {
 }
 
 /*Footer*/
+
+
 .footer {
     display: flex;
     background: #1C427B;
@@ -108,3 +110,48 @@ body {
     font-weight: bold;
     font-size: 60px;
 }
+
+@media (max-width: 1100px){
+
+
+.account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -30px;
+}
+.account-container img{
+  display: grid;
+  width: 300px;
+  height: 300px;
+  place-items: center;
+  column-gap: 2;
+  row-gap: auto;
+  margin-left: 35px;
+}
+.account-container input{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(800px,ifr));
+    place-items: center;
+    column-gap: 2;
+    row-gap: auto;
+    margin: 20;
+  }
+  .navbar a{
+    margin-left: 20px;
+    margin-right: 0px;
+    display:grid;
+}
+.navbar-frase p{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.footer{
+    display: none;
+}
+.navbar a {
+   font-size: 30px;
+}
+}
+
+
