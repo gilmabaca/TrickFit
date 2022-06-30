@@ -14,7 +14,7 @@
 </head>
 <body>
     <!--navbar-->
-    <div class="navbar">
+    <section class="navbar">
         <div class="navbar-logo" >
             <img src="Images/logo-trans.png" alt="logo">
         </div>
@@ -25,10 +25,10 @@
             <a href="#Recetas">Recetas</a>
             <a href="#Planes">Planes</a>
         </div>
-    </div>
+    </section>
 
     <!--Home-->
-    <div class="home">
+    <section class="home">
         <img alt="senior" src="Images/senior.jpg">
         <div class="home-slogan">
             <p>Crea habitos saludables a tu ritmo</p>
@@ -38,10 +38,10 @@
                 </button>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--About Us-->
-    <div class="about-us" id="Nosotros" >
+    <section class="about-us" id="Nosotros" >
         <img src="Images/logo-trans.png" alt="logo">
         <div class="about-us-description">
             <h2>Nosotros</h2>
@@ -50,10 +50,10 @@
                 mejorar su estilo de vida mediante ejercicio y buena alimentación a lograr su objetivo con mayor facilidad. Los usuarios estarán
                 supervisados por profesionales en las áreas de nutrición y entrenamientos de diferentes disciplinas deportivas.</p>
         </div>
-    </div>
+    </section>
 
-    <!--Rutinas y Recetas-->
-    <div class="RandR" >
+    <!--Rutinas-->
+    <section class="RandR" >
         <h2 class="RandR-title" id="Rutinas">Rutinas</h2>
         <div class="cards">
             <div class="card">
@@ -108,12 +108,16 @@
                 </div>
             </div>
         </div>
-        <h2 class="RandR-title" id="Recetas">Recetas</h2>
-        <div class="cards">
-            <div class="card">
+    </section>
+
+    <!--Recetas-->
+    <section class="RandP" >
+        <h2 class="RandP-title" id="Recetas">Recetas</h2>
+        <div class="cardsP">
+            <div class="cardP">
                 <div class="card-header">
-                    <span class="card-title">Desayuno</span>
-                    <span class="card-subtitle">Gratuito</span>
+                    <span class="cardP-title">Desayuno</span>
+                    <span class="cardP-subtitle">Gratuito</span>
                 </div>
                 <ul>
                     <li>Acceso a videos de ejercicios</li>
@@ -127,10 +131,10 @@
                     </button>
                 </div>
             </div>
-            <div class="card">
+            <div class="cardP">
                 <div class="card-header">
-                    <span class="card-title">Almuerzo</span>
-                    <span class="card-subtitle">Gratuito</span>
+                    <span class="cardP-title">Almuerzo</span>
+                    <span class="cardP-subtitle">Gratuito</span>
                 </div>
                 <ul>
                     <li>Acceso a videos de ejercicios</li>
@@ -144,10 +148,10 @@
                     </button>
                 </div>
             </div>
-            <div class="card">
+            <div class="cardP">
                 <div class="card-header">
-                    <span class="card-title">Cena</span>
-                    <span class="card-subtitle">Gratuito</span>
+                    <span class="cardP-title">Cena</span>
+                    <span class="cardP-subtitle">Gratuito</span>
                 </div>
                 <ul>
                     <li>Acceso a videos de ejercicios</li>
@@ -162,44 +166,48 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!--Planes-->
-    <div class="RandP">
-        <h2 class="RandP-title" id="Planes">Planes</h2>
-        <div class="cardsP">
-            <div class="cardP">
-                <div class="cardP-header">
-                    <span class="cardP-title">Plan nutricional</span>
-                    <span class="cardP-subtitle">1-3-6 meses</span>
+    <div class="RandR">
+        <h2 class="RandR-title" id="Planes">Planes</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Plan nutricional</span>
+                    <span class="card-subtitle">1-3-6 meses</span>
                 </div>
                 <ul>
                     <li>Consulta personalizada con un nutricionista </li>
                     <li>Recomendaciones de comidas con macronutrientes</li>
                     <li>Aprender a calcular las calorias y la importancia de equilibrar tus habitos alimenticios</li>
                 </ul>
-                <div class="cardP-btn">
-                    <a href="Views/Plans/planNutricional.html">Mas información</a>
+                <div class="card-btn">
+                    <button>
+                        <a href="Views/Plans/planNutricional.html">Mas información</a>
+                    </button>
                 </div>
             </div>
-            <div class="cardP">
-                <div class="cardP-header">
-                    <span class="cardP-title">Plan rutinas</span>
-                    <span class="cardP-subtitle">1-3-6 meses</span>
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Plan rutinas</span>
+                    <span class="card-subtitle">1-3-6 meses</span>
                 </div>
                 <ul>
                     <li>Consulta personalizada con un entrenador</li>
                     <li>Creacion de rutinas con objetivos según el tiempo establecido</li>
                     <li>Adecua tu tiempo y espacio para poder incluir actividad física en tu horario</li>
                 </ul>
-                <div class="cardP-btn">
-                    <a href="Views/Plans/planRutinas.html">Mas información</a>
+                <div class="card-btn">
+                    <button>
+                        <a href="Views/Plans/planRutinas.html">Mas información</a>
+                    </button>
                 </div>
             </div>
-            <div class="cardP">
-                <div class="cardP-header">
-                    <span class="cardP-title">Plan R&N</span>
-                    <span class="cardP-subtitle">1-3-6 meses</span>
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Plan R&N</span>
+                    <span class="card-subtitle">1-3-6 meses</span>
                 </div>
                 <ul>
                     <li>Contiene todos los beneficios del Plan rutinas y el Plan nutricional</li>
@@ -207,9 +215,29 @@
                     <li>También cuenta con diferentes duración de acorde a lo que quieras o puedas
                         costear</li>
                 </ul>
-                <div class="cardP-btn">
-                    <a href="Views/Plans/planR&N.html">Mas información</a>
+                <div class="card-btn">
+                    <button>
+                        <a href="Views/Plans/planR&N.html">Mas información</a>
+                    </button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About-the-team-->
+    <div class="RandP" >
+        <h2 class="RandP-title" id="About-the-team">About the team</h2>
+        <div class="cards">
+            <div class="cardP">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/W4vWoPKgnIo"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </div>
         </div>
     </div>

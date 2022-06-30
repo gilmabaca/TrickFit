@@ -90,3 +90,49 @@ body {
     border-top: 1px solid #035397;
     border-bottom: 1px solid #035397;
 }
+/*Responsive*/
+@media (max-width: 1000px){
+
+    .register-container {
+        display: flex;
+         flex-direction: column;
+        justify-content: center;
+        
+    }
+    .finput{
+     display: flex;
+     min-width: 100px;
+     min-height: 25px;
+     margin: 5px;
+    }
+    .iandbtn {
+        display: grid;
+        width: 200px;
+        height: 200px;
+        place-items: center;
+        column-gap: 2;
+        row-gap: auto;
+        margin-top: -5px;
+        font-size: 5px;
+        margin-left: 95px;
+
+    }
+    
+    .navbar a{
+        margin-left: 20px;
+        margin-right: 0px;
+        display:grid;
+    }
+    .navbar-frase p{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .footer{
+        display: none;
+    }
+    .navbar a {
+       font-size: 30px;
+    }
+  
+}    
+    

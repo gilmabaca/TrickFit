@@ -1,4 +1,5 @@
 # TrickFit
+
 Este va a ser el repositorio del landing page de TricFit,
 proyecto perteneciente al Grupo 2. 
 

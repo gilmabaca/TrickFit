@@ -14,14 +14,15 @@ html {
 }
 .navbar-logo {
     display: flex;
-    width: 60%;
+    width: 20%;
 
 }
 .navbar-options {
-    display: flex;
+    display:flex;
+    align-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    width: 40%;
+    justify-content: right;
+    width: 80%;
 
 }
 .navbar-options a {
@@ -73,6 +74,7 @@ html {
 }
 .about-us-description {
     width: 45%;
+    text-align: center;
 }
 .about-us-description h2 {
     text-align: center;
@@ -94,6 +96,7 @@ html {
 }
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .card {
@@ -139,6 +142,18 @@ html {
     font-weight: bold;
 }
 
+.RecetasR{
+    background: #FFFFFF;
+}
+
+.RecetasCard{
+    background: #FF8A01;
+}
+
+#Recetas{
+    color: #1C58AE;
+}
+
 /*RANDP*/
 .RandP {
     background: #ffffff;
@@ -152,6 +167,7 @@ html {
 }
 .cardsP {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .cardP {
@@ -219,5 +235,56 @@ html {
     align-items: center;
     font-weight: bold;
     font-size: 80px;
+}
+
+/*Responsive*/
+/*Small desktop*/
+@media only screen and (max-width: 800px) {
+    .home-slogan{
+        font-size: 25px;
+    }
+
+    .home-btn button {
+        font-size: 15px;
+    }
+
+    .about-us{
+        flex-direction: column;
+    }
+
+    .trickfit{
+        font-size: 40px;
+    }
+
+    .about-us img {
+        max-width: 80%;
+    }
+
+    .about-us-description {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 535px) {
+    .card, .cardP {
+        padding: 18px;
+    }
+
+    .footer{
+        visibility: hidden;
+        width: 10px;
+        display: none;
+    }
+
+    .navbar-options{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .navbar-options a{
+       margin: 5px ;
+    }
 }
 

@@ -62,13 +62,9 @@ body {
 }
 
 .flex-row-Contenido {
-    align-items: center;
-    max-width: 23px;
+    display: flex;
+    align-content: flex-start;
     padding: 5px;
-    width: 50%;
-    margin-left: 100px;
-    margin-right: 500px;
-    justify-content: left;
 }
 
 .tittleContenido {
@@ -102,7 +98,6 @@ body {
     padding: 23px 0;
     width: 450px;
     margin-left: 1px;
-    margin-top: 50px;
 }
 
 .overlap-grupo8 {
@@ -126,8 +121,7 @@ body {
     color: #035397;
     font-size: 43px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: right;
-    width: 500px;
+    text-align: center;
     margin: 25px;
 }
 
@@ -144,7 +138,7 @@ body {
     border: 2px solid #035397;
     padding: 10px;
     min-width: 500px ;
-    margin: 20px;
+    margin: 20px 0;
     border-radius: 10px;
 }
 
@@ -253,3 +247,45 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 input[type=number] { -moz-appearance:textfield; }
+
+
+
+/*Responsive*/
+/*Tablet*/
+@media only screen and (max-width: 1025px) {
+    .navbar-frase p {
+        font-size: 35px;
+    }
+    .flex-row-Contenido {
+        justify-content: space-evenly;
+    }
+    .Container {
+        flex-direction: column;
+       
+    }
+    .footer{
+        visibility: hidden;
+        width: 10px;
+        display: none;
+    }
+    .finput {
+        min-width: 250px;
+    }
+    
+}
+
+/*Mobile*/
+@media only screen and (max-width: 535px) {
+    .navbar a i {
+        font-size: 35px;
+    }
+    .navbar-frase p {
+        font-size: 25px;
+    }
+    .overlap-Contenido {
+        margin: 10px;
+    }
+    .finput {
+        min-width: 100px;
+    }
+}
