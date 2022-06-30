@@ -237,6 +237,13 @@ html {
     font-size: 80px;
 }
 
+/*About the team*/
+.visualizer_vid {
+    width: 560px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
 /*Responsive*/
 /*Small desktop*/
 @media only screen and (max-width: 800px) {
@@ -264,6 +271,11 @@ html {
         width: 80%;
         margin-bottom: 60px;
     }
+
+
+    .visualizer_vid {
+        width: 445px;
+    }
 }
 
 /*Mobile*/
@@ -285,6 +297,10 @@ html {
 
     .navbar-options a{
        margin: 5px ;
+    }
+
+    .visualizer_vid {
+        width: 335px;
     }
 }
 
