@@ -286,5 +286,9 @@ html {
     .navbar-options a{
        margin: 5px ;
     }
+
+    .mobileCard{
+        max-width: 450px;
+    }
 }
 
