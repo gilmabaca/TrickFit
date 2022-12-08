@@ -40,9 +40,9 @@ html {
 }
 .home-slogan {
     position: absolute;
-    font-size: 55px;
+    font-size: 30px;
     margin: 15px 20px;
-    color: #000000;
+    color: #035397;
     font-weight: 800;
     width: 48%;
 }
@@ -65,7 +65,7 @@ html {
 .about-us {
     display: flex;
     height: 55%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .about-us image {
@@ -97,7 +97,7 @@ html {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .card {
     background: #fff;
@@ -168,7 +168,7 @@ html {
 .cardsP {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .cardP {
     background: #FF8A01;
@@ -215,7 +215,7 @@ html {
     background: #1C427B;
     flex-direction: row;
     color: #fff;
-    justify-content: space-around;
+    justify-content: center;
     padding: 30px;
 }
 .footer-part-about {
@@ -235,6 +235,7 @@ html {
     align-items: center;
     font-weight: bold;
     font-size: 80px;
+    margin: 30px;
 }
 
 /*About the team*/
