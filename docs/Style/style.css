@@ -8,9 +8,10 @@ html {
 }
 .navbar {
     display: flex;
-    height: 100px;
+    height: 60px;
     box-shadow: 0 6px 12px #0016;
-    z-index: 10
+    z-index: 10;
+    padding: 0px 15%
 }
 .navbar-logo {
     display: flex;
@@ -19,7 +20,6 @@ html {
 }
 .navbar-options {
     display:flex;
-    align-content: center;
     align-items: center;
     justify-content: right;
     width: 80%;
@@ -40,14 +40,14 @@ html {
 }
 .home-slogan {
     position: absolute;
-    font-size: 55px;
-    margin: 15px 20px;
+    font-size: 50px;
+    padding: 4% 15%;
     color: #035397;
     font-weight: 800;
-    width: 48%;
+    width: 100%;
 }
 .home-btn button {
-    font-size: 25px;
+    font-size: 18px;
     background: #1C427B;
     padding: 10px 30px;
     cursor: pointer;
@@ -65,7 +65,7 @@ html {
 .about-us {
     display: flex;
     height: 55%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .about-us image {
@@ -97,7 +97,7 @@ html {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .card {
     background: #fff;
@@ -168,7 +168,7 @@ html {
 .cardsP {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .cardP {
     background: #FF8A01;
@@ -215,7 +215,7 @@ html {
     background: #1C427B;
     flex-direction: row;
     color: #fff;
-    justify-content: space-around;
+    justify-content: center;
     padding: 30px;
 }
 .footer-part-about {
@@ -223,23 +223,25 @@ html {
 }
 .footer-part {
     text-align: left;
-    width: 30px;
-    margin: 0 40px;
+    margin: 0 65px;
 }
 .footer-part div a {
     color: #fff;
+    display: block;
     text-decoration: none;
 }
 .trickfit {
     display: flex;
     align-items: center;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 50px;
+    margin: 30px;
 }
 
 /*About the team*/
 .visualizer_vid {
-    width: 560px;
+    width:360px;
+    height:250px;
     object-fit: cover;
     border-radius: 30px;
 }
@@ -248,7 +250,8 @@ html {
 /*Small desktop*/
 @media only screen and (max-width: 800px) {
     .home-slogan{
-        font-size: 25px;
+        text-align: center;
+        font-size: 20px;
     }
 
     .home-btn button {
@@ -296,7 +299,7 @@ html {
     }
 
     .navbar-options a{
-       margin: 5px ;
+        margin: 5px ;
     }
 
     .visualizer_vid {
