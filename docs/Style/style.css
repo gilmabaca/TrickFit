@@ -223,18 +223,18 @@ html {
 }
 .footer-part {
     text-align: left;
-    width: 30px;
-    margin: 0 40px;
+    margin: 0 65px;
 }
 .footer-part div a {
     color: #fff;
+    display: block;
     text-decoration: none;
 }
 .trickfit {
     display: flex;
     align-items: center;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 50px;
     margin: 30px;
 }
 
